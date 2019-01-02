@@ -21,6 +21,7 @@ public class OperatorsExamples {
 		 * <, <=, >, >=, ==, !=
 		 */
 		int x = 3;
+		x = 7;
 		if(x == 3) {
 			x = 6;
 			System.out.println("correct you passed the check");
@@ -32,7 +33,7 @@ public class OperatorsExamples {
 		 */
 	    //Post increment ++, pre increment use.
 		//x = x+1;
-		x++;
+		x = x++;
 		
 		/*for(int i =0 ; i< 10 ;i++) {
 			System.out.println("i value::" +i);
@@ -40,7 +41,7 @@ public class OperatorsExamples {
 		System.out.println("x latest values:" +x);
 		System.out.println("x values: "+x);
 		
-		++x;
+		x = x++;
 		if(x == 8) {
 			System.out.println("inside increament");
 		}
@@ -72,7 +73,7 @@ public class OperatorsExamples {
 		String str1 = "";
 		if(x == 8) {
 			str1 = "correct";
-		}else {
+		} else {
 			str1 = "wrong";
 		}
 		System.out.println(str1);
