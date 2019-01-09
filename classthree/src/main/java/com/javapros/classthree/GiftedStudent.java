@@ -17,7 +17,7 @@ public class GiftedStudent extends Student {
 	}
 	
 	void printDetails() {
-		System.out.println("name of gifted student:" +name);
+		System.out.println("name of gifted student:" +getName());
 	}
 	
 	

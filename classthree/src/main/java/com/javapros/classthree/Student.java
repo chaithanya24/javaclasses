@@ -1,11 +1,16 @@
 package com.javapros.classthree;
 
+import com.javapros.singlton.SingletonSample;
+
 public class Student {
 	
 	private int id;
-	String name;
+	private String name;
 	private String gender;
 	private int age;
+	
+	//public SingletonSample singletonSample = SingletonSample.getSinglton();
+	
 	
 	public Student() {
 		// TODO Auto-generated constructor stub
@@ -18,6 +23,43 @@ public class Student {
 		this.gender = gender;
 		this.age = age;
 	}
+	
+	
+	
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		
+		this.age = age;
+	}
+
 	
 	private void printSudentDetails() {
 		System.out.println("printing student details, for name:: "+name);

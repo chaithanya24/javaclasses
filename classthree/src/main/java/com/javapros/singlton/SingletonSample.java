@@ -11,7 +11,7 @@ public class SingletonSample {
 	private static SingletonSample INSTANCE = null;
 	
 	
-	public static SingletonSample getInstance() {
+	public static SingletonSample getSinglton() {
 		
 		if(INSTANCE == null) {
 			dbConnection = "SOme DB connection";
