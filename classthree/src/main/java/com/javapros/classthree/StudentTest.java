@@ -20,5 +20,6 @@ public class StudentTest {
 		
 		SingletonSample singletonSample = SingletonSample.getSinglton();
 	}
+	
 
 }

@@ -12,9 +12,6 @@ public class Student {
 	//public SingletonSample singletonSample = SingletonSample.getSinglton();
 	
 	
-	public Student() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public Student(int id, String name, String gender, int age) {
 		
@@ -27,6 +24,13 @@ public class Student {
 	
 	
 	
+	public Student(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
 	public int getId() {
 		return id;
 	}
@@ -52,12 +56,23 @@ public class Student {
 	}
 
 	public int getAge() {
+		if(age < 5 ) {
+			return 10;
+		}
 		return age;
 	}
 
 	public void setAge(int age) {
 		
-		this.age = age;
+		if(age < 5 ) {
+			this.age = 10;
+		} else {
+			this.age = age;
+		}
+		
+		//
+		//
+		
 	}
 
 	
