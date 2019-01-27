@@ -37,6 +37,36 @@ public class StringTest {
 		String newName = "chaithanyamurali";
 		
 		System.out.println("name:" +name);
+		
+		StringBuilder builder = new StringBuilder();
+		builder.append("chaithanya");
+		builder.append("Murali");
+		
+		System.out.println("String builder::"+builder.toString());
+		
+		StringBuffer buffer = new StringBuffer();
+		buffer.append("Hello....");
+		
+		System.out.println("String buffer::" +buffer.toString());
+		
+		String hello = "hello world..!";
+		
+		System.out.println(hello.length());
+		System.out.println(hello.substring(0, 5));
+		System.out.println(hello.concat("adding more...!"));
+		
+		int intVal = 30;
+		
+		String strVal = Integer.toString(intVal);
+		
+		System.out.println("str value:" +strVal);
+		
+		int newVal = Integer.parseInt(strVal);
+		
+		System.out.println("result value::" +newVal);
+		
+		//Create two string literal/ using constructor, then perform all the ~45 string methods on the string values.
+		// Different ways to convert string -> int/float etc vice versa.
 	}
 
 }
